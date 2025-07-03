@@ -26,7 +26,7 @@
     "prettier": "^1.17.1"
   },
   "scripts": {
-    "start": "bash bin/dev.sh",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "deploy-node-app",
     "test": "react-scripts test",
