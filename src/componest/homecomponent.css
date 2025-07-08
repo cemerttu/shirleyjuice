@@ -1,4 +1,6 @@
 .Home-app {
+    border: 3px solid red;
+    border-radius: 5px;
     text-align: center;
     display: flex;
     align-items: center;

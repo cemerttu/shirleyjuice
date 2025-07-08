@@ -8,7 +8,7 @@ function profileComponent() {
         {username ? (
           <div className="profile-message">
             <h2>Welcome back, {username}</h2>
-            <p>This is your </p>
+            <p>This is your profile page</p>
           </div>
         ) : (
           <NameForm onSubmitName={setUsername} />

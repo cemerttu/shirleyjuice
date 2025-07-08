@@ -1,5 +1,5 @@
 import "./homecompote.css";
-// import Navbar from "./componentOne";"
+import profileComponent from "./profilecomponent";
 function HomeComponent() {
     return (
         <div className="Home-app">
@@ -7,6 +7,7 @@ function HomeComponent() {
              <h1>Welcome to the Home Page</h1>
              <p>This is a simple home component.</p>
            </div>
+           <profileComponent/>
         </div>
     );
 }
