@@ -1,18 +1,22 @@
-import "./homecompote.css";
-import profileComponent from "./profilecomponent";
+import "./homeComponent.css";
+import Navbar from "./componentOne";
+import ProfileComponent from './profile-Component';
 function HomeComponent() {
-    return (
-        <div className="Home-app">
-           <div className="Home-header">
-             <h1>Welcome to the Home Page</h1>
-             <p>This is a simple home component.</p>
-           </div>
-           <profileComponent/>
+  return (
+    <>
+      <nav>
+        <Navbar />
+      </nav>
+      <div className="Home-app">
+        <div className="Inner-home-app">
+          <h1>Welcome to the Home Component</h1>
         </div>
-    );
+        < ProfileComponent />
+      </div>
+      
+      
+    </>
+  );
 }
 
-
-
 export default HomeComponent;
-

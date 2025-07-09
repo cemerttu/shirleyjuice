@@ -5,6 +5,7 @@ function ProfileComponent() {
   const [username, setUsername] = useState('');
   const [imageUrl, setImageUrl] = useState('');
 
+  
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -14,7 +15,7 @@ function ProfileComponent() {
   };
 
 
-  
+
   return (
     <div className="profile-component">
       {username ? (
@@ -35,3 +36,7 @@ function ProfileComponent() {
 }
 
 export default ProfileComponent;
+
+
+
+
