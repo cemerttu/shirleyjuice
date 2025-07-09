@@ -1,17 +1,13 @@
-import logos from './logos.svg'
-import './App.css'
-import Navbar from '../componest/componentOne';
+import ProfileComponent from '../componest/profilecomponent';
+import './App.css';
+import HomeComponent from './components/homeComponet';
 
-function App(){
+function App() {
   return (
-    <div className="App">
-    <h1> hello World </h1>
-    <Navbar/ >
+    <div>
+      <ProfileComponent />
     </div>
   );
 }
 
 export default App;
-
-
-

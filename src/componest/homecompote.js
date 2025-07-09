@@ -1,6 +1,8 @@
 import "./homeComponent.css";
 import Navbar from "./componentOne";
 import ProfileComponent from './profile-Component';
+
+
 function HomeComponent() {
   return (
     <>
