@@ -28,3 +28,9 @@ const NameForm = ({ onSubmitName }) => {  // ✅ Receive prop
 };
 
 export default NameForm;
+
+
+
+
+
+
